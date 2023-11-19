@@ -1,25 +1,3 @@
-def add(a, b):
-    try:
-        result = a + b
-        return result
-    except Exception as e:
-        print(f"Error when adding: {e}")
-        return None
-
-def subtract(a, b):
-    try:
-        result = a - b
-        return result
-    except Exception as e:
-        print(f"Error when subtracting: {e}")
-        return None
-
-def calculator():
-    try:
-        # Get user input
-        num1 = float(input("Input first number: "))
-        operator = input("Enter the operation (+ to add, - to subtract): ")
-        num2 = float(input("Input second number: "))
 
         # Perform the selected operation
         if operator == '+':
